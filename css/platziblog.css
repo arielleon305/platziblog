@@ -232,4 +232,17 @@ body{
   text-decoration: none;
   background: #eaeaea;
   border: 1px solid #ccc;
+  font-weight: bolder;
+}
+
+.siguiente:after {
+  content: '›';
+  color: #666;
+  font-size: 16px;
+}
+
+.ultima:after {
+  content: '»';
+  color: #666;
+  font-size: 16px;
 }
