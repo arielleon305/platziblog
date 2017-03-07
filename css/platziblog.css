@@ -126,7 +126,7 @@ body{
   margin: auto;
   margin-top: -20px;
   min-height: 100%;
-  width: 1200px;
+  width: 1000px;
 }
 
 .post-promo {
@@ -173,7 +173,7 @@ body{
 }
 
 .posts{
-  /*margin: 0px  10px;*/
+  margin: 0px  10px;
   padding: 0px 15px;
   margin-top: 20px;
 
@@ -181,29 +181,32 @@ body{
 
 .post-link  {
   text-decoration: none;
-
 }
 
-.cuadros {
-  width: 317px;
-}
 
 .post-img {
-  height: 214px;
+  height: 180px;
+  width: 300px;
   margin: 0;
   overflow: hidden;
 }
 
 .post-titulo {
-  border-bottom: 1px;
-  border-color: #333;
+  font-size: 18px;
+  color: #666;
+
+
 }
+
 
 .footer-post {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
   align-items: center;
+  font-size: 16px;
+  color: #666;
+  border-top: 1px solid #666;
 }
 
 /*-----------FOOTER PAGES-----------------*/
@@ -213,8 +216,9 @@ body{
   justify-content: center;
   padding: 30px 60px;
   margin: 50px 128px;
-  font-size: 24px;
+  font-size: 16px;
   color: #666;
+
 }
 
 .actual-page, .button-page {
