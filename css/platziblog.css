@@ -1,0 +1,231 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.contenedor {
+  /*clase implementada en multiples etiquetas html*/
+  /*width: 800px;*/
+  height: 500px;
+  margin: auto;
+  position: relative;
+  background-color: #efefef;
+  position: static;
+}
+
+.header{
+  height: 80px;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 8px 10px 0px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3643+0,1e5271+100 */
+  background: #1c3643; /* Old browsers */
+  background: -moz-linear-gradient(left,  #1c3643 0%, #1e5271 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #1c3643 0%,#1e5271 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #1c3643 0%,#1e5271 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3643', endColorstr='#1e5271',GradientType=1 ); /* IE6-9 */
+}
+
+.logotipo {
+
+}
+
+.menu-header a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+
+/*.menu-header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 5px;
+}*/
+.menu-header ul li {
+    border-top: 5px solid rgba(0,0,0,0);
+    display: inline-block;
+    font-size: 1em;
+    position: relative;
+}
+
+.menu li a:hover {
+    border-top: 5px solid #D0272A;
+    /*display: inline-block;*/
+    /*font-size: 1em;*/
+    position: relative;
+}
+
+
+.menu-header ul li:before {
+    height: 1.5em;
+    border-right: 1px solid #fff;
+    content: '';
+    position: absolute;
+    right: -10px;
+}
+
+.login {
+    font-size: 15px;
+    /*font-weight: bold;*/
+    color: white;
+    background: #FF4842;
+    border-bottom: 3px solid #D0272A;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 12px 8px 8px 8px;
+    cursor: auto;
+}
+
+.login:hover {
+  background: #3DD110;
+  border-bottom: 3px solid #38A50D;
+  cursor: pointer;
+
+}
+
+
+.search-campo {
+  border-radius: 3px;
+  font-size: 15px;
+  height: 30px;
+  border: none;
+  outline: 0;
+}
+
+.search-campo:focus {
+  background: lightgray;
+}
+
+.search-submit{
+  background-image: url(../images/search.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-size: 30px;*/
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 2px;
+  float: right;
+  margin-left: 3px;
+}
+
+.post {
+  background-image: url('../images/pexels-central.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-top: -20px;
+  min-height: 100%;
+  width: 1200px;
+}
+
+.post-promo {
+  float: left;
+  background: rgba(255,255,255,0.8);
+  bottom: 60px;
+  margin-top: 250px;
+  margin-left: 250px;
+  padding: 1.5em;
+  position: static;
+  width: 480px;
+}
+
+      /*Publicaciones*/
+
+.header-post-promo {
+  border-bottom: 1px solid #333;
+}
+
+.promo-post-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-postpromo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-postpromo a {
+  margin-left: 0px;
+}
+
+.perfilpost {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.publicaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 100px 0px 100px;
+}
+
+.posts{
+  /*margin: 0px  10px;*/
+  padding: 0px 15px;
+  margin-top: 20px;
+
+}
+
+.post-link  {
+  text-decoration: none;
+
+}
+
+.cuadros {
+  width: 317px;
+}
+
+.post-img {
+  height: 214px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.post-titulo {
+  border-bottom: 1px;
+  border-color: #333;
+}
+
+.footer-post {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+/*-----------FOOTER PAGES-----------------*/
+.footer {
+  /*text-align: center;*/
+  display: flex;
+  justify-content: center;
+  padding: 30px 60px;
+  margin: 50px 128px;
+  font-size: 24px;
+  color: #666;
+}
+
+.actual-page, .button-page {
+  font-style: oblique;
+  margin-left: 16px;
+  color: #666;
+  padding: 3px 12px;
+}
+
+.button-page {
+  text-decoration: none;
+  background: #eaeaea;
+  border: 1px solid #ccc;
+}
